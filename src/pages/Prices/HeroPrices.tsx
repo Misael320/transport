@@ -1,14 +1,4 @@
-import { title } from "process";
-import index from ".";
-
-type datos = {
-  title: string;
-  id: number;
-  contenido: string;
-};
-
 type Props = {};
-const datos = [{ title: "SERVICIO AÉREOS" }];
 
 function HeroPrices({}: Props) {
   return (
